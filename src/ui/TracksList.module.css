@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list_container{
+    background-color: rgba(255, 255, 255, .2);
+    padding: 20px 0;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.list_container button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, .2);
+
+}
+
+.list_container button:active{
+    background-color: rgba(255, 255, 255, .4);
+}
